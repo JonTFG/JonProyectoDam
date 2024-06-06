@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary colors -->
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorSecondary">#03DAC5</color>
+    <color name="colorSecondaryDark">#018786</color>
+    <color name="colorOnSecondary">#000000</color>
+
+    <!-- Light Theme Colors -->
+    <color name="lightBackground">#FFFFFF</color>
+    <color name="lightText">#000000</color>
+
+    <!-- Dark Theme Colors -->
+    <color name="darkBackground">#121212</color>
+    <color name="darkText">#FFFFFF</color>
+
+    <!-- Button Background Color -->
+    <color name="button_background_color">#FF6200EE</color>
+    <color name="button_text_color">#FFFFFFFF</color>
+
+    <!-- Bottom Navigation Colors -->
+    <color name="bottom_navigation_color">#FF6200EE</color>
+    <color name="bottom_navigation_text_color">#FFFFFFFF</color>
+    <color name="bottom_navigation_icon_color">#FFFFFFFF</color>
+
+    <!-- Background Color -->
+    <color name="background_color">#FFFFFF</color>
+
+    <color name="colorAccent">#03DAC5</color>
+    <color name="loading">#CCCCCC</color>
+    <color name="error">#FF0000</color>
+
+</resources>
+

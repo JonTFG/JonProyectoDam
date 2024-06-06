@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".AgregarProductoActivity">
+
+    <EditText
+        android:id="@+id/etNombreProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del producto" />
+
+    <EditText
+        android:id="@+id/etDescripcionProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripción del producto" />
+
+    <EditText
+        android:id="@+id/etSupermercado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Supermercado" />
+
+    <EditText
+        android:id="@+id/etPrecio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Precio" />
+
+    <Button
+        android:id="@+id/btnSeleccionarFoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seleccionar foto del producto(opcional)"
+        />
+
+    <ImageView
+        android:id="@+id/ivProducto"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:visibility="gone"
+        android:contentDescription="Foto del producto" />
+
+    <Button
+        android:id="@+id/btnGuardarProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar producto" />
+
+</LinearLayout>

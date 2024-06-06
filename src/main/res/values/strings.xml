@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Comprahorro</string>
+    <string name="escanear">Escanear</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    
+
+    <!-- Formato para el precio -->
+    <string name="precio_format">Precio: €%.2f</string>
+    <string name="favorite_image">Imagen del producto favorito</string>
+    <string name="favorite_name">Nombre del producto favorito</string>
+    <string name="favorite_supermarket">Supermercado del producto favorito</string>
+    <string name="favorite_price">Precio del producto favorito</string>
+    <string name="favorite_like_button">Botón de favorito</string>
+</resources>

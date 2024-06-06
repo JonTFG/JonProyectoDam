@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Configuración">
+    </PreferenceCategory>
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="modeApp"
+        android:title="Cambiar color del tema" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="flash"
+        android:title="Flash" />
+
+    <PreferenceCategory android:title="Problemas Generales">
+    </PreferenceCategory>
+
+    <Preference
+        android:key="sinCod"
+        android:title="El producto no tiene código de barras"
+        android:summary="" />
+
+    <PreferenceCategory android:title="Información">
+    </PreferenceCategory>
+
+    <Preference
+        android:key="version"
+        android:title="Versión"
+        android:summary="Alpha1"
+        app:enabled="false"
+        app:selectable="false" />
+
+    <Preference
+        android:key="terms"
+        android:title="Términos y condiciones"
+        android:summary="Haz clic aquí para ver los términos y condiciones completos" />
+
+    <Preference
+        android:key="objetivo"
+        android:title="¿Cuál es el objetivo de compraHorro?" />
+
+    <Preference
+        android:key="creador"
+        android:title="¿Quién está detrás de compraHorro?" />
+
+    <Preference
+        android:key="logout"
+        android:title="Cerrar sesión"
+        android:summary="Haz clic aquí para cerrar sesión y volver a la pantalla de inicio de sesión" />
+    <Preference
+        android:key="licencia"
+        android:title="Licencia de compraHorro" />
+
+</PreferenceScreen>
